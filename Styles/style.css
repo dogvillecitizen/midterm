@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 1920px;
+  width: 100%;
+}
+
+.sidebar {
+  width: 340px;
+  background-color: #222222;
+}
+
+.center-container {
+  margin: 40px auto;
+  background-color: red;
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-menu {
+  justify-content: space-between;
+}
+
+.logo {
+  justify-content: space-between;
+}
+.burger {
+  justify-content: space-between;
+}
+
+.main-content {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  width: 1500px;
+  margin-left: 5px;
+}
