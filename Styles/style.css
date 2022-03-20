@@ -27,47 +27,44 @@
   margin-bottom: 105px;
 }
 
-ul li{
+ul li {
   display: flex;
   align-items: center;
   width: 260px;
   height: 60px;
-  border-radius: 12px; 
+  border-radius: 12px;
   text-decoration: none;
-
 }
-ul  a{
+
+ul a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   margin-left: 20px;
 }
 
-.followers{
+.followers {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-.list{
+.list {
   margin-bottom: 50px;
 }
 .list img {
   margin-left: 20px;
   width: 24px;
   height: 24px;
-
-
 }
 
 .main-content {
-  background-color: aqua;
-  display: flex;
+   display: flex;
   flex-direction: column;
 
   width: 1500px;
   margin-left: 5px;
 }
-h3{
+h3 {
   margin-bottom: 30px;
   color: white;
   size: 12px;
@@ -82,31 +79,91 @@ h3{
   justify-content: flex-start;
   align-items: center;
 }
-.follower p{
+.follower p {
   size: 16px;
   margin-left: 20px;
   color: white;
-  ;
 }
 .image-profile img {
   margin-left: 20px;
   width: 44px;
   height: 44px;
 }
-h6{
+h6 {
   size: 14px;
   color: white;
   margin-left: 20px;
 }
-nav{
+nav {
   height: 116px;
   width: 1485px;
-  border-bottom: 1px;
-  margin-bottom: 40px;
-  background-color: red;
+  border-bottom-style: groove;
+  border-bottom: 1px solid rgba(226, 226, 226, 0.353);
+     display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 446px;
+  height: 56px;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  color: #111111;
+  size: 14px;
+  padding: 0px 20px;
+}
+.upload {
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.myprofile {
+  width: 56px;
+  height: 56px;
+}
 
+.upload-button {
+  width: 129px;
+  height: 56px;
+  background-color: #ff2288;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.upload-button p {
+  color: white;
+    size: 14px;
+  text-transform: uppercase;
+}
+.upload-elements {
+  margin: 0px 10px;
+  z-index: 19;
+  position: relative;
+}
 
+.gopro{
+  size: 14px;
+  color: #ff2288;
+  text-transform: uppercase;
+  margin-top: 7px;
+}
 
+.dot {
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+  background-color: #ff2288;
+  border-style: groove;
+  border:2px solid #f8f8f8;
+  z-index: 20;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 .right-content {
   display: flex;
@@ -114,20 +171,19 @@ nav{
   margin: 0 auto;
 }
 
-.gallery-header{
+.gallery-header {
   width: 1230px;
   height: 56px;
-  background-color: rebeccapurple;
-  margin: 40px auto;
+   margin: 40px auto;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.gallery-header ul{
+.gallery-header ul {
   display: flex;
+  justify-content: space-between;
 }
 
-
-.categories a{
+.categories a {
   display: flex;
   size: 16px;
   color: #222222;
@@ -135,22 +191,48 @@ nav{
   justify-content: center;
   margin: 16px 20px;
 }
+.all{
+  background-color: #f8f8f8;
+  border-radius: 12px;
+}
+.categories li {
 
-.categories li{
-  display: flex;
   display: flex;
   height: 56px;
- margin-right: 20px;
- background-color: #F2F2F2;
- align-items: center;
- width: auto;
- border-radius: 12px;
-
+  align-items: center;
+   width: auto;
+  border-radius: 12px;
 }
-.filter-icon{
-  margin-left:  20px;
+.categories {
+  margin-right: 20px;
+}
+.filter-icon {
+
   align-items: center;
   width: 24px;
   height: 24px;
   justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.filter {
+  border-style: groove;
+  border: solid 1px #e2e2e2;
+  padding: 0px 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+.filter a{
+  size: 16px;
+  color: black;
+  text-decoration: none;
+
+}
+.gallery-content{
+  background-color: #ff2288;
+  margin: 0 auto;
+  width: 1230px;
+  height: 3000px;
+  display: flex;
 }
